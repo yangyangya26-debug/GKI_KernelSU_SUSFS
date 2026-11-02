@@ -1,0 +1,13 @@
+# Redmi K70 vermeer 专用配置 KMI android13-5.15-8
+kmi = "android13-5.15-8"
+kernel_branch = "android13-5.15"
+kernel_lts = "5.15.180"
+arch = "arm64"
+defconfig = "gki_defconfig"
+ksu_mode = "builtin"
+ksu_branch = "main"
+enable_susfs = true
+enable_kpm = true
+build_vendor_boot = true
+build_boot = false
+lto = "none"
