@@ -1,0 +1,17 @@
+[kernel]
+source = "https://github.com/WildKernel/wild-kernel-vermeer"
+branch = "5.15.178-android13"
+defconfig = "gki_defconfig"
+
+[root]
+variant = "sukisu"
+build_type = "builtin"
+susfs = true
+
+[compiler]
+toolchain = "clang"
+clang_branch = "android13"
+llvmbinutils = true
+
+[pack]
+format = "ak3"
